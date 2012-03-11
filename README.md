@@ -5,14 +5,15 @@ The purpose of this app is to help with the development of the web interface of 
 Installation
 ------------
 
-Simply checkout the latest code and 
+Simply checkout the latest code and install gem dependecies:
 
     git co https://github.com/zzeni/sample_chart_generator
     cd sample_chart_generator
     # (sudo) gem install bundler - if you don't have bundler
     bundle install # or: sudo bundle install
 
-And run with the following command
+Then just run the app:
+
     ruby app.rb
 
 Enjoy ;)
