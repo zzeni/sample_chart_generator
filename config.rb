@@ -1,5 +1,3 @@
-require 'sequel'
-#require 'sequel/extensions/pagination'
 #require 'lib/chart_gen.rb'
 
 # Plugins.
@@ -8,6 +6,7 @@ Dir['./plugins/*.rb'].each { |plugin| require plugin }
 # Sinatra configurations.
 configure do
   enable :sessions
+  set :layout_engine => :haml
 end
 
 # Application helpers.
