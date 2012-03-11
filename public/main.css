@@ -27,7 +27,8 @@ body {
 
 #content {
   padding: 10px;
-  height: 250px;
+/*  height: 350px; */
+  margin-bottom: 25px;
   overflow: auto;
 }
 
