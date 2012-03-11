@@ -3,3 +3,9 @@
 
 %img(src="#{@chart_url}")
 
+- if authorized?
+  %p
+    Visit
+    %a(href="admin") admin page
+    if you dare ]:->
+
