@@ -7,6 +7,11 @@ get "/chart" do
   haml :chart
 end
 
+post "/chart" do
+  @chart_url = generate_chart "data1", params[:type]
+  haml :chart
+end
+
 get "/admin" do
   protected!
   haml :admin_panel

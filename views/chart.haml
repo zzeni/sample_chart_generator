@@ -1,3 +1,12 @@
+%form(action="/chart" method="POST")
+  %p
+    Select chart type
+    %select(name="type")
+      %option(value="line") line
+      %option(value="pie") pie
+      %option(value="bar") bar
+    %button(type="submit" name="Submit") Go
+
 %p
   Find your chart here:
 
